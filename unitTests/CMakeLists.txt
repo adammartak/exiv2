@@ -1,7 +1,11 @@
 find_package(GTest REQUIRED)
 
 add_executable(unit_tests mainTestRunner.cpp
+<<<<<<< HEAD
     gtestwrapper.h
+=======
+    test_basicio.cpp
+>>>>>>> bd0afe039... Add bounds check to MemIo::seek(). (#944)
     test_types.cpp
     test_tiffheader.cpp
     test_futils.cpp
